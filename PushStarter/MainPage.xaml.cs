@@ -25,7 +25,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Navigation;
 using AeroGear.Push;
 using FHSDK;
-using FHSDKPortable;
+using FHSDK81.Phone;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
