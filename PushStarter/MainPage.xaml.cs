@@ -25,7 +25,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Navigation;
 using AeroGear.Push;
 using FHSDK;
-using FHSDK81.Phone;
+using FHSDKPortable;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -63,7 +63,7 @@ namespace PushStarter
             {
                 RegisterState.HasContent();
                 PropertyChanged(this, new PropertyChangedEventArgs("RegisterState"));
-                MessageList.Add(e.Args.message);
+                MessageList.Add(e.Args.Message);
             });
         }
 
