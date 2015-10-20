@@ -1,0 +1,8 @@
+version: 1.0.{build}
+before_build:
+- nuget restore
+build:
+  project: PushStarter.sln
+  verbosity: minimal
+cache:
+  - packages -> **\packages.config
