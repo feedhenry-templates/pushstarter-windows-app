@@ -130,12 +130,16 @@
       <HintPath>..\packages\aerogear-windows-push.0.0.9\lib\portable-win81+wpa81\aerogear-windows-push.dll</HintPath>
     </Reference>
     <Reference Include="FHSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\FH.SDK.1.3.1\lib\wpa81\FHSDK.dll</HintPath>
+      <HintPath>..\packages\FH.SDK.1.3.4\lib\wpa81\FHSDK.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="FHSDKPhone81, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\FH.SDK.1.3.1\lib\wpa81\FHSDKPhone81.dll</HintPath>
+    </Reference>
+    <Reference Include="FHSDKPortable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FH.SDK.1.3.4\lib\wpa81\FHSDKPortable.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="lib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
