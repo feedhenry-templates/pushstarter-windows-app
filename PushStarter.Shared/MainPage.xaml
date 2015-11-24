@@ -22,12 +22,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="White"
     Foreground="#212121"
     FontSize="16"
     FontFamily="/Assets/Roboto-Regular.ttf">
 
-    <Grid>
+    <Grid Background="White">
         <StackPanel Orientation="Vertical">
             <Border BorderThickness="0">
                 <Border.Background>
