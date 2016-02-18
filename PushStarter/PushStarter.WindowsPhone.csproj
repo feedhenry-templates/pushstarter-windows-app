@@ -79,12 +79,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="App.xaml.cs">
-      <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -101,20 +95,7 @@
     <Content Include="Assets\WideLogo.scale-240.png" />
   </ItemGroup>
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-    <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
-    <Content Include="Assets\fontawesome-webfont.ttf" />
-    <Content Include="Assets\Roboto-Regular.ttf" />
-    <Content Include="fhconfig.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -130,10 +111,6 @@
     <Reference Include="FHSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FH.SDK.1.3.4\lib\wpa81\FHSDK.dll</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="FHSDKPhone81, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\FH.SDK.1.3.1\lib\wpa81\FHSDKPhone81.dll</HintPath>
     </Reference>
     <Reference Include="FHSDKPortable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FH.SDK.1.3.4\lib\wpa81\FHSDKPortable.dll</HintPath>
@@ -161,6 +138,7 @@
       <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\wpa81\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <Import Project="..\PushStarter.Shared\PushStarter.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>

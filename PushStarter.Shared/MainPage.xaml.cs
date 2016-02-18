@@ -20,19 +20,16 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using Windows.UI.Core;
 using Windows.UI.Popups;
-using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Navigation;
 using AeroGear.Push;
 using FHSDK;
 using FHSDKPortable;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
-
 namespace PushStarter
 {
     /// <summary>
-    ///     An empty page that can be used on its own or navigated to within a Frame.
+    ///     Main view that has 3 states
     /// </summary>
     public sealed partial class MainPage : INotifyPropertyChanged
     {
@@ -47,8 +44,8 @@ namespace PushStarter
             NavigationCacheMode = NavigationCacheMode.Required;
         }
 
-        public ObservableCollection<string> MessageList { get; set; }
-        public UiState RegisterState { get; set; }
+        public ObservableCollection<string> MessageList { get; }
+        public UiState RegisterState { get; }
         public event PropertyChangedEventHandler PropertyChanged;
 
         private void OnRegistrationComplete()
@@ -76,8 +73,6 @@ namespace PushStarter
         /// </param>
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            await StatusBar.GetForCurrentView().HideAsync();
-
             try
             {
                 await FHClient.Init();
