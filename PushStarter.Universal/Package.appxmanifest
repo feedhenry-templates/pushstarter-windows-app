@@ -8,14 +8,14 @@
 
   <Identity
     Name="89dc8492-4ee7-4da2-9e3e-7b2842d9eeee"
-    Publisher="CN=ErikJan"
+    Publisher="CN=YourName"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="89dc8492-4ee7-4da2-9e3e-7b2842d9eeee" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>PushStarter.Universal</DisplayName>
-    <PublisherDisplayName>ErikJan</PublisherDisplayName>
+    <PublisherDisplayName>YourName</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
