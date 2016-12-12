@@ -4,7 +4,7 @@
   <mp:PhoneIdentity PhoneProductId="1cc05d20-7b1d-48cf-a6d1-4811b7f27749" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>PushStarter</DisplayName>
-    <PublisherDisplayName>YourName</PublisherDisplayName>
+    <PublisherDisplayName>corinne</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
