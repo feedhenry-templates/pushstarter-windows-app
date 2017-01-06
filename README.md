@@ -1,3 +1,5 @@
+## Windows Phone is not supported anymore. This repository is no longer maintained
+
 helloworld-push-windows: Basic Mobile Application showing the AeroGear Push feature 
 ===================================================================================
 Author: Erik Jan de Wit (edewit)   
